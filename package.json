@@ -1,6 +1,6 @@
 {
   "name": "@henrotaym/helpers",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "A collection of common helpers.",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
