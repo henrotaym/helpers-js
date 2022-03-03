@@ -1,6 +1,6 @@
 /** Trying to execute given callback. */
 async function trying<R>(
-  callback: () => R
+  callback: () => Promise<R>
 ): Promise<[null | Error, null | Awaited<R>]> {
   try {
     const response = await callback();
